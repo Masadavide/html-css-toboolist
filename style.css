@@ -20,7 +20,7 @@ header{
     vertical-align: top;
 }
 
-.bianco{
+#bianco{
     background-color: white;
     margin: 30px 20%;
     border-radius: 5px;
@@ -58,6 +58,7 @@ section{
 .titoletto{
     font-size: 20px;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 .faccende{
@@ -65,15 +66,17 @@ section{
     margin-left: 3px;
 }
 
-#check{
-    padding: 1px 3px;
-    border: 1px solid green;
+.check:before{
+    content: "\2714";
     color: green;
+    border: 1px solid green;
     border-radius: 50%;
+    padding: 1px 3px;
     font-size: 10px;
 }
 
-#x{
+.x:before{
+    content: "\2716";
     padding: 1px 3px;
     border: 1px solid red;
     color: red;
