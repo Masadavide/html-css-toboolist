@@ -92,26 +92,26 @@ section{
     font-size: 10px;
 }
 
-.editorial{
+.tag-type-1{
     background: cornflowerblue;
 }
 
-.q1{
+.tag-type-2{
     background-color: mediumpurple;
 }
 
-.recruiting{
+.tag-type-3{
     background-color: mediumaquamarine;
 }
 
-.mobile{
+.tag-type-4{
     background-color: goldenrod;
 }
 
-.web{
+.tag-type-5{
     background-color: palevioletred;
 }
 
-.sales{
+.tag-type-6{
     background-color: yellowgreen;
 }
