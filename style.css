@@ -66,7 +66,7 @@ section{
     margin-left: 3px;
 }
 
-.check:before{
+.check::before{
     content: "\2714";
     color: green;
     border: 1px solid green;
@@ -75,7 +75,7 @@ section{
     font-size: 10px;
 }
 
-.x:before{
+.x::before{
     content: "\2716";
     padding: 1px 3px;
     border: 1px solid red;
